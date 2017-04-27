@@ -1,6 +1,6 @@
 # npmtest-node-jsdom
 
-#### test coverage for  [node-jsdom (v3.1.5)](https://github.com/darrylwest/node-jsdom)  [![npm package](https://img.shields.io/npm/v/npmtest-node-jsdom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-jsdom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-jsdom.svg)](https://travis-ci.org/npmtest/node-npmtest-node-jsdom)
+#### basic test coverage for  [node-jsdom (v3.1.5)](https://github.com/darrylwest/node-jsdom)  [![npm package](https://img.shields.io/npm/v/npmtest-node-jsdom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-jsdom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-jsdom.svg)](https://travis-ci.org/npmtest/node-npmtest-node-jsdom)
 
 #### A JavaScript implementation of the DOM and HTML standards cloned from the original jsdom branch 3.x
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-jsdom/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-jsdom/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-jsdom/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-jsdom/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-jsdom/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-jsdom/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-jsdom/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-jsdom/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-jsdom/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-jsdom/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-jsdom/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-jsdom/build/coverage.html/index.html)
 
@@ -243,7 +243,8 @@
         "test": "node ./test/runner",
         "test-browser": "node ./test/browser-runner"
     },
-    "version": "3.1.5"
+    "version": "3.1.5",
+    "bin": {}
 }
 ```
 
